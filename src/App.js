@@ -5,7 +5,8 @@ import Home from "./Components/Home/Home";
 import SignUp from "./Components/SignUp/SignUp";
 import Login from "./Components/Login/Login";
 import Nav from "./Components/Nav/Nav";
-import Products from "./Components/Products/Products";
+import Products from "./Components/Products";
+import TeamForm from "./Components/TeamForm";
 
 function App() {
   const [showLogin, setShowLogin] = useState(false);
@@ -26,7 +27,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login handleUserLogin={handleUserLogin}/>} />
-        <Route path="/signup" element={<SignUp />} />
         <Route path="/products" element={<Products />} />
       </Routes>
     </div>

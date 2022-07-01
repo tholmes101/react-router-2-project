@@ -1,0 +1,24 @@
+{
+  "favorite": [
+    {
+      "id": 1,
+      "team": "Milwaukee Bucks"
+    },
+    {
+      "id": 2,
+      "team": "Boston Celtics"
+    },
+    {
+      "id": 3,
+      "team": "Atlanta Hawks"
+    },
+    {
+      "id": 4,
+      "team": "Charlotte Hornets"
+    },
+    {
+      "team": "Miami Heat",
+      "id": 5
+    }
+  ]
+}
