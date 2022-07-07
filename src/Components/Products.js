@@ -1,6 +1,7 @@
 // import useEffect
 import React, { useEffect, useState } from "react";
 import TeamForm from "./TeamForm"
+
 ;
 // ...rest of imports
 
@@ -23,6 +24,7 @@ export default function Products() {
 
   return (
     <div>
+      
       <h1>My NBA Favorite Teams</h1>
 <div classname = "TeamList"></div>
 <TeamForm onAddTeam={handleAddTeam}/>
@@ -33,6 +35,7 @@ export default function Products() {
           </li>
         ))}
       </ul>
+      
      
   </div>
   )
